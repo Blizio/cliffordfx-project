@@ -1,0 +1,8 @@
+void main() {
+  print('Enter a number:');
+  int number = int.parse(stdin.readLineSync());
+
+  String result = (number > 0) ? 'Positive' : 'Negative';
+
+  print('The number is $result');
+}

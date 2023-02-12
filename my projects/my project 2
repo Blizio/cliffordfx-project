@@ -1,0 +1,9 @@
+void main() {
+  double force = 25.5;
+  double mass = 10.2;
+  
+  double acceleration = force / mass;
+  int accelerationInt = acceleration.round();
+  
+  print('The acceleration is $accelerationInt m/s^2');
+}
